@@ -1,0 +1,39 @@
+nav {
+ padding: 10px 100% 10px 10px;
+ width: 100%;
+}
+nav ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 100px;
+    overflow: hidden;
+    background-color: #999;
+}
+nav li {
+    float: left;
+    margin-left: 15%;
+}
+body {
+    font-family: Arial;
+}
+
+p {
+    max-width: 400px;
+    line-height: 30px;
+}
+
+header {
+    margin:5% 5% 0% 5%;
+}
+
+.AboutMe {
+    margin: auto;
+    width: 50%;
+}
+.AboutMe img {
+    border-radius: 3%;
+}
+.TopContainer {
+    display: flex;
+    flex-direction: row;
+}
