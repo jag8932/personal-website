@@ -1,5 +1,5 @@
+
 nav {
- padding: 10px 100% 10px 10px;
  width: 100%;
 }
 nav ul {
@@ -12,14 +12,17 @@ nav ul {
 nav li {
     float: left;
     margin-left: 15%;
+    font-size: 18px;
 }
 body {
-    font-family: Arial;
+    font-family: 'Lato', sans-serif;
+    
 }
 
 p {
     max-width: 400px;
     line-height: 30px;
+    
 }
 
 header {
@@ -29,6 +32,7 @@ header {
 .AboutMe {
     margin: auto;
     width: 50%;
+    font-size: 18px;
 }
 .AboutMe img {
     border-radius: 3%;
@@ -40,11 +44,16 @@ header {
 
 .Projects {
     display: flex;
+    flex-wrap: wrap;
     margin: auto;
     width: 50%;
     margin-top: 100px;
 }
 
+.ProjectContainer h1 {
+    margin: auto;
+    width: 50%;
+}
 .ProjectSub {
     max-width: 200px;
     padding: 50px;
