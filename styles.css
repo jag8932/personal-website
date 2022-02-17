@@ -62,5 +62,9 @@ header {
     overflow-wrap: break-word;
     border: 0.5px solid rgba(0,0,0, .2);
     border-radius: 3%;
+}
+
+.ProjectSub:hover {
+
     box-shadow: 5px 5px rgba(0,0,0,.7);
 }
